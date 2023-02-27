@@ -1,0 +1,37 @@
+{
+  "collectionName": "video",
+  "info": {
+    "name": "video",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "youtube": {
+      "type": "string"
+    },
+    "ficheiro": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

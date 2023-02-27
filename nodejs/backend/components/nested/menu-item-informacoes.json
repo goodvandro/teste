@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_informacoes",
+  "info": {
+    "name": "menuItemInformacoes",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "informacoes": {
+      "collection": "informacoes"
+    }
+  }
+}

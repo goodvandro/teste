@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletters",
+  "info": {
+    "name": "Newsletter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "data": {
+      "type": "datetime"
+    },
+    "politica_privacidade": {
+      "type": "boolean",
+      "required": false
+    },
+    "nome": {
+      "type": "string"
+    }
+  }
+}

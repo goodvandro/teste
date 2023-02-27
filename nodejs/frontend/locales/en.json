@@ -1,0 +1,170 @@
+{
+  "form": {
+    "personal_details": "Personal Details",
+    "nota": "Please complete all mandatory fields on this form.",
+    "name": "Name",
+    "genre": "Genre",
+    "female": "Female",
+    "male": "Male",
+    "date_of_birth": "Date of birth",
+    "marital_status": "Marital status/ relationship",
+    "country_of_birth": "Country of Birth",
+    "country_of_citizenship": "Country of citizenship",
+    "former_nationality": "Former nationality (if applicable)",
+    "income_statement": "Income statement",
+    "is_application_linked": "Is this application linked to an existing one?",
+    "yes": "Yes",
+    "no": "No",
+    "certify": "I certify that I hope to earn an income of 12.000€ or more in the next 6 months and/or have means to support myself, my partner and dependents who accompany me during my stay in Cape Verde.",
+    "contact_information": "Contact information",
+    "permanent_address": "Permanent Address",
+    "city": "City",
+    "state": "State/Province",
+    "region": "Region CEP",
+    "postal_code": "Postal Code",
+    "country": "Country",
+    "phone_number": "Phone number",
+    "emergency_contact": "Emergency contact",
+    "email": "Email",
+    "email_confirmation": "Confirm Email",
+    "passport_details": "Passport details",
+    "passport_number": "Passport number",
+    "country_of_issue": "Country of issue",
+    "date_of_issue": "Date of issue",
+    "due_date": "Due date",
+    "date_of_arrival": "Date of arrival to Cabo Verde",
+    "convicted_crime": "Have you ever been convicted of a serious crime",
+    "employment_details": "Employment details",
+    "employer": "Employer / Company name (if applicable)",
+    "employement_description": "Brief description of the type of work/ nature of the business in which the candidate will be involved",
+    "dependents": "Dependents",
+    "are_there": "Are there any person(s) in the family group accompanied by you who would be defined as dependent?",
+    "see_definition": "(see definition in General Information – Definition of terms)",
+    "health_insurance": "Health Insurance details",
+    "valid_insurance": "Do you have a valid insurance policy?",
+    "policy_number": "Insurance Policy Number",
+    "insurance_expiry": "Insurance Expiry Date",
+    "insurance_company": "Insurance Company Name",
+    "insurance_contact_number": "Insurance Company Contact Number",
+    "supporting_documents": "Supporting documents",
+    "passport_photo": "Passport size photo",
+    "passport_photo_help": "Upload your passport size photo (jpeg format) ",
+    "passport_bio_page": "Passport bio page",
+    "supported_files": "Supported files: jpeg, png.",
+    "other_details": "Other details relevant to your application that you want to share.",
+    "description": "Description",
+    "declaration_and_signature": "Declaration and Signature",
+    "date_of_submission": "Date of submission",
+    "signature": "Signature",
+    "declaration": "Declaration by the applicant",
+    "declaration_text": "I declare that I, or any member of my family group included in this application, do not come looking for a permanent job in Cabo Verde.",
+    "consent": "Consent",
+    "i_certify": "I certify that the information provided by me in this form is true and correct, to the best of my knowledge. I understand and agree that any false information, misrepresentation or omission of facts in this application and during the application process may be a justification for refusing entry or revoking status.",
+    "submit_application": "Submit Application"
+  },
+  "erros": {
+    "label": "Please fix the following errors:",
+    "issue_date_due": "Passport Issue Date must be priot to Due Date",
+    "issue_date_arrival": "Passport Issue Date must be prior to Date of Arrival To Cabo Verde",
+    "arrival_date_due": "Date of Arrival must be prior to Passport Issue Date",
+    "arrival_date_insurance_expiry": "Insurance Expiry Date must be after Date of Arrival To Cabo Verde",
+    "email": {
+      "obrigatorio": "Email is mandatory.",
+      "invalido": "You must enter a valid email.",
+      "confirmacao": "Confirmation Email must be the same as Email"
+    }
+  },
+  "common": {
+    "discover": "Discover Cape Verde",
+    "ilhas": "The Islands",
+    "ver_mais": "View More",
+    "ler_mais": "Read More",
+    "ver_todos": "See All",
+    "ver_todas_actividades": "See All Activites",
+    "pesquisa": "Search",
+    "escolha_opcao": "Select option",
+    "escolha_experiencia": "Select option"
+  },
+  "destinations": {
+    "title": "Destinations",
+    "meet": "Meet the Islands"
+  },
+  "contacts": {
+    "title": "Contact us",
+    "url": "contactos",
+    "content": {
+      "title": "Direcção Geral do Turismo de Cabo Verde",
+      "url": "destinations",
+      "meet": "Meet the Islands"
+    },
+    "form": {
+      "title": "We'd Love To Hear From You.",
+      "text": "Please complete all required fields in this form. If you have a specific inquiry, please describe it in the \"Comments\" field, and we will respond promptly.",
+      "message": "Message",
+      "name": "Name",
+      "email": "Email",
+      "terms": "Li e aceito a <a class='underline' href='/politica-de-privacidade' target='_blank'>Política de Privacidade</a>.*",
+      "send": "Send",
+      "erros": {
+        "label": "Por favor corrija os seguintes erros:",
+        "email": {
+          "obrigatorio": "O email é obrigatório.",
+          "invalido": "Tem de inserir um email válido."
+        },
+        "nome": {
+          "obrigatorio": "O nome é obrigatório."
+        },
+        "message": {
+          "obrigatorio": "A mensagem é obrigatória."
+        },
+        "terms": {
+          "obrigatorio": "Deve concordar com a política de privacidade."
+        }
+      }
+    },
+    "cta": {
+      "send": "Send"
+    }
+  },
+  "travel_wise": {
+    "title": "Travel Wise",
+    "url": "travel-wise"
+  },
+  "things_to_do": {
+    "title": "Things To Do",
+    "url": "things-to-do"
+  },
+  "events": {
+    "title": "Events",
+    "url": "events",
+    "all_year": "Cape verde all year around"
+  },
+  "about": {
+    "title": "About Cape Verde",
+    "url": "about-cape-verde"
+  },
+  "local_partners": {
+    "title": "Parceiros Locais",
+    "url": "#parceiros-locais"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "url": "privacy-policy"
+  },
+  "cookies_policy": {
+    "title": "Cookies Policy",
+    "url": "cookies-policy"
+  },
+  "footer": {
+    "find_us": "Find us on",
+    "useful_links": "Useful Links",
+    "contact_us": "Contact Us",
+    "developed_by": "Developed by",
+    "copyright": "Copyright 2020 © Turismo de Cabo Verde. All Rights Reserved"
+  },
+  "information": {
+    "title":"PLANEAR A SUA VIAGEM",
+    "sub-title":"Informações úteis para a sua estadia",
+    "description":"Conselhos de viagem para aproveitar ao máximo a sua estadia."
+  }
+}

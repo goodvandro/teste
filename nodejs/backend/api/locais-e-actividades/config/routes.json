@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/locais-e-actividades",
+      "handler": "locais-e-actividades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/locais-e-actividades/count",
+      "handler": "locais-e-actividades.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/locais-e-actividades/:id",
+      "handler": "locais-e-actividades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/locais-e-actividades",
+      "handler": "locais-e-actividades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/locais-e-actividades/:id",
+      "handler": "locais-e-actividades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/locais-e-actividades/:id",
+      "handler": "locais-e-actividades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

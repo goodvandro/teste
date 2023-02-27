@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_sobre_nos",
+  "info": {
+    "name": "menuItemSobreNos",
+    "icon": "fingerprint"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "sobre_nos": {
+      "collection": "sobre-nos"
+    }
+  }
+}

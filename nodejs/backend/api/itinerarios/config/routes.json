@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/itinerarios",
+      "handler": "itinerarios.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/itinerarios/count",
+      "handler": "itinerarios.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/itinerarios/:id",
+      "handler": "itinerarios.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/itinerarios",
+      "handler": "itinerarios.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/itinerarios/:id",
+      "handler": "itinerarios.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/itinerarios/:id",
+      "handler": "itinerarios.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

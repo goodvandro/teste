@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_timelines",
+  "info": {
+    "name": "timeline",
+    "icon": "stopwatch"
+  },
+  "options": {},
+  "attributes": {
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.single-time-line"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

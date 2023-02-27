@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tours-transportes",
+      "handler": "tours-transportes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tours-transportes/count",
+      "handler": "tours-transportes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tours-transportes/:id",
+      "handler": "tours-transportes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tours-transportes",
+      "handler": "tours-transportes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tours-transportes/:id",
+      "handler": "tours-transportes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tours-transportes/:id",
+      "handler": "tours-transportes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

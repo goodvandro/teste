@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_regioes",
+  "info": {
+    "name": "menuItemRegioes",
+    "icon": "map-signs"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "regioes": {
+      "collection": "regioes"
+    }
+  }
+}

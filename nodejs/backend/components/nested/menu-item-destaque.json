@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_nested_menu_item_destaques",
+  "info": {
+    "name": "menuItemDestaque",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.item-destaque-container"
+    }
+  }
+}

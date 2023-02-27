@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_categorias",
+  "info": {
+    "name": "menuItemCategorias",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "categorias": {
+      "collection": "categorias"
+    }
+  }
+}

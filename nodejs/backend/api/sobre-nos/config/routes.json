@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sobre-nos",
+      "handler": "sobre-nos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sobre-nos/count",
+      "handler": "sobre-nos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sobre-nos/:id",
+      "handler": "sobre-nos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sobre-nos",
+      "handler": "sobre-nos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sobre-nos/:id",
+      "handler": "sobre-nos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sobre-nos/:id",
+      "handler": "sobre-nos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

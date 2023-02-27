@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_nested_card_hover_urls",
+  "info": {
+    "name": "cardHoverUrl",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "titulo_de": {
+      "type": "string"
+    },
+    "titulo_fr": {
+      "type": "string"
+    },
+    "ancora": {
+      "type": "string"
+    },
+    "ancora_en": {
+      "type": "string"
+    },
+    "ancora_de": {
+      "type": "string"
+    },
+    "ancora_fr": {
+      "type": "string"
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

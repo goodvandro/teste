@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_cards_gerals",
+  "info": {
+    "name": "cardsGeral",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.card-texto"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

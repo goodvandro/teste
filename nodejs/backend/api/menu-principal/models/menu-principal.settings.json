@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_principals",
+  "info": {
+    "name": "Menu Principal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "menuTopItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.menu-top-item"
+    },
+    "teste": {
+      "type": "dynamiczone",
+      "components": [
+        "content.text"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_content_menu_top_items",
+  "info": {
+    "name": "menuTopItem",
+    "icon": "angle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "titulo_en": {
+      "type": "string",
+      "required": true
+    },
+    "titulo_de": {
+      "type": "string",
+      "required": true
+    },
+    "titulo_fr": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "slug_en": {
+      "type": "string"
+    },
+    "slug_de": {
+      "type": "string"
+    },
+    "slug_fr": {
+      "type": "string"
+    },
+    "seccoes": {
+      "collection": "seccoes-menu"
+    }
+  }
+}

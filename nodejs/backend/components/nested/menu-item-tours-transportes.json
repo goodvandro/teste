@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_tours_transportes",
+  "info": {
+    "name": "menuItemToursTransportes",
+    "icon": "shuttle-van"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "tours_transportes": {
+      "collection": "tours-transportes"
+    }
+  }
+}

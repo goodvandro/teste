@@ -1,0 +1,108 @@
+{
+  "common": {
+    "redesSociais":{
+      "titulo": "Siga-nos nas Redes Sociais",
+      "subTitulo":"Redes Sociais"
+    }
+  },
+  "information": {
+    "title":"PLANEAR A SUA VIAGEM",
+    "sub-title":"Informações úteis para a sua estadia",
+    "description":"Conselhos de viagem para aproveitar ao máximo a sua estadia."
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidade",
+    "url": "#privacidade"
+  },
+  "cookies_policy": {
+    "title": "Política de Cookies",
+    "url": "#cookies"
+  },
+  "form":{
+    "contactos":{
+      "titulo":"Como podemos ajudar?",
+      "texto":"Por favor preencha o formulário abaixo.",
+      "placeholders":{
+        "nome":"Nome",
+        "email":"Email",
+        "mensagem":"Mensagem"
+      },
+      "politica":"Li e aceito a <a href='/pt/politica-de-privacidade' target='_blank'>Política de Privacidade*</a>",
+      "enviar":{
+        "texto":"Enviar"
+      }
+    },
+    "newsletter":{
+      "titulo":"As melhores sugestões para viajar em São Tomé e Príncipe",
+      "texto":"Subscreva a newsletter para receber informação periódica com planos de viagem únicos.",
+      "placeholders":{
+        "nome":"Nome",
+        "email":"Email"
+      },
+      "disclaimer":"* Os seus dados somente serão utilizados para o envio de newsletter e não serão utilizados para outros fins nem divulgados. Para outras questões por favor contacte-nos através da página contactos.",
+      "politica":"Li e aceito a <a href='/pt/politica-de-privacidade' target='_blank'>Política de Privacidade*</a>"
+    },
+    "erros":{
+      "titulo":"Por favor corrija os seguintes erros:",
+      "email":{
+        "valido":"Tem de inserir um email válido.",
+        "obrigatorio": "O email é obrigatório."
+      },
+      "nome":{
+        "obrigatorio":"O nome é obrigatório."
+      },
+      "mensagem":{
+        "obrigatorio":"A mensagem é obrigatória."
+      },
+      "politica":{
+        "obrigatorio":"Deve concordar com a política de privacidade."
+      }
+    }
+  },
+  "contactos":{
+    "mapa":{
+      "titulo":"Direcção Geral de Turismo e Hotelaria",
+      "texto": "Ministério de Finanças, Comércio e Economia Azul, Direcção Geral de Turismo e Hotelaria"
+    }
+  },
+  "cta":{
+    "download":{
+      "titulo": "Download do ficheiro"
+    }
+  },
+  "topMenu":{
+    "items":{
+      "brochuras":{
+        "titulo":"Brochuras e Mapas",
+        "url":"/institucional/brochuras-e-mapas"
+      },
+      "institucional":{
+        "titulo":"Institucional",
+        "url":"/institucional",
+        "items":{
+          "servicos":{
+            "titulo":"Serviços",
+            "url":"/institucional/servicos"
+          },
+          "regulamentos":{
+            "titulo":"Regulamentos e Documentos",
+            "url":"/institucional/regulamentos-e-documentos"
+          },
+          "noticias":{
+            "titulo":"Notícias / Imprensa",
+            "url":"/institucional/noticias-imprensa"
+          }
+        }
+      },
+      "contactos":{
+        "titulo":"Contactos",
+        "url":"/institucional/contactos"
+      }
+    }
+  },
+  "resultados":{
+    "titulo":"Resultado",
+    "texto": "Resultados da pesquisa feita pelo termo: ",
+    "semResultados":"Não foram encontrados resultados."
+  }
+}

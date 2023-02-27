@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_image_lists",
+  "info": {
+    "name": "ImageList",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.image-repeater"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

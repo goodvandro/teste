@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "itinerarios",
+  "info": {
+    "name": "Itinerários",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "nome_en": {
+      "type": "string"
+    },
+    "nome_de": {
+      "type": "string"
+    },
+    "nome_fr": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nome"
+    },
+    "slug_en": {
+      "type": "uid",
+      "targetField": "nome_en"
+    },
+    "slug_de": {
+      "type": "uid",
+      "targetField": "nome_de"
+    },
+    "slug_fr": {
+      "type": "uid",
+      "targetField": "nome_fr"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": ["content.text", "content.slider"]
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.metas"
+    }
+  }
+}

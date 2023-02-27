@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_tours_categorias",
+  "info": {
+    "name": "Tours Categorias",
+    "icon": "bus-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tours_transportes": {
+      "collection": "tours-transportes"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

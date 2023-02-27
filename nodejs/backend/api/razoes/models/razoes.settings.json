@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "razoes",
+  "info": {
+    "name": "Razões",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "titulo_de": {
+      "type": "string"
+    },
+    "titulo_fr": {
+      "type": "string"
+    },
+    "texto": {
+      "type": "richtext"
+    },
+    "texto_en": {
+      "type": "richtext"
+    },
+    "texto_de": {
+      "type": "richtext"
+    },
+    "texto_fr": {
+      "type": "richtext"
+    },
+    "razoes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.razoes"
+    }
+  }
+}

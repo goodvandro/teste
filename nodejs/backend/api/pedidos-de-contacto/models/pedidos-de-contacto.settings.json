@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos_de_contactos",
+  "info": {
+    "name": "Pedidos de contacto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mensagem": {
+      "type": "text"
+    },
+    "politica_privacidade": {
+      "type": "boolean"
+    },
+    "data": {
+      "type": "datetime"
+    }
+  }
+}

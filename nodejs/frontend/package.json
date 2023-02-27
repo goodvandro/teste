@@ -1,0 +1,32 @@
+{
+  "name": "turismo-sao-tome-e-principe",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "generategql": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/device": "^1.2.7",
+    "@nuxtjs/markdownit": "^1.2.10",
+    "apollo-cache-inmemory": "^1.6.6",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "nuxt": "^2.14.7",
+    "nuxt-i18n": "^6.15.4",
+    "nuxt-lazy-load": "^1.2.4",
+    "nuxt-property-decorator": "^2.8.8",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.19.4",
+    "@graphql-codegen/fragment-matcher": "^2.0.1",
+    "@nuxt/types": "^2.14.7",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/tailwindcss": "^3.2.0"
+  }
+}

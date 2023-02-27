@@ -1,0 +1,8 @@
+overwrite: true
+schema: 'http://127.0.0.1:5007/graphql'
+generates:
+  ./fragmentTypes.json:
+    plugins:
+      - 'fragment-matcher'
+    config:
+      apolloClientVersion: 2

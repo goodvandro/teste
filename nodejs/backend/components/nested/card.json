@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_nested_card",
+  "info": {
+    "name": "card",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": false
+    },
+    "morada": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "estrelas": {
+      "type": "enumeration",
+      "enum": [
+        "sem_estrelas",
+        "uma",
+        "duas",
+        "tres",
+        "quatro",
+        "cinco",
+        "seis"
+      ],
+      "required": false,
+      "default": "sem_estrelas"
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

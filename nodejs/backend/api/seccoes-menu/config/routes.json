@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seccoes-menus",
+      "handler": "seccoes-menu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seccoes-menus/count",
+      "handler": "seccoes-menu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seccoes-menus/:id",
+      "handler": "seccoes-menu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/seccoes-menus",
+      "handler": "seccoes-menu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seccoes-menus/:id",
+      "handler": "seccoes-menu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seccoes-menus/:id",
+      "handler": "seccoes-menu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

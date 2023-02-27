@@ -1,0 +1,51 @@
+import gql from 'graphql-tag'
+
+export function queryItinerarios(language) {
+  return gql`
+    query itinerarios{
+      itinerarios{
+        nome:nome${language}
+        slug:slug${language}
+        banner{
+          url
+        }
+        body {
+          ... on ComponentContentText {
+              texto${language}
+              params{
+                background_color
+                padding
+                background{
+                  url
+                }
+                background_posicao
+              }
+          }
+          ... on ComponentContentSlider {
+            Slide {
+              imagem {
+                url
+              }
+              legenda${language}
+            }
+            params{
+              background_color
+              padding
+              background{
+                url
+              }
+              background_posicao
+            }
+          }
+        }
+        metadata {
+          title: title
+          description: description
+          imagem_partilha {
+            url
+          }
+        }
+      } 
+    }
+  `
+}

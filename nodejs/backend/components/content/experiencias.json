@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_experiencias",
+  "info": {
+    "name": "experiencias",
+    "icon": "bicycle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experiencias": {
+      "collection": "experiencias"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    },
+    "estilo": {
+      "type": "enumeration",
+      "enum": [
+        "card",
+        "contentWithImage"
+      ],
+      "default": "contentWithImage",
+      "required": true
+    }
+  }
+}

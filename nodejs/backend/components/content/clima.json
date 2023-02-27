@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_climas",
+  "info": {
+    "name": "clima",
+    "icon": "temperature-high",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "richtext"
+    },
+    "texto_en": {
+      "type": "richtext"
+    },
+    "texto_de": {
+      "type": "richtext"
+    },
+    "texto_fr": {
+      "type": "richtext"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

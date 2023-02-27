@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_content_split_with_images",
+  "info": {
+    "name": "SplitWithImages",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "richtext"
+    },
+    "texto_en": {
+      "type": "richtext"
+    },
+    "texto_de": {
+      "type": "richtext"
+    },
+    "texto_fr": {
+      "type": "richtext"
+    },
+    "imagens": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    },
+    "alinhamento": {
+      "type": "enumeration",
+      "enum": ["esquerda", "direita"],
+      "default": "esquerda"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "background_posicao": {
+      "type": "enumeration",
+      "enum": [
+        "left_center",
+        "left_top",
+        "left_bottom",
+        "right_center",
+        "right_top",
+        "right_bottom"
+      ]
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    },
+    "sectionId": {
+      "type": "string"
+    }
+  }
+}

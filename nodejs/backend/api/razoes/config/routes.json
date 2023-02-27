@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/razoes",
+      "handler": "razoes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/razoes",
+      "handler": "razoes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/razoes",
+      "handler": "razoes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

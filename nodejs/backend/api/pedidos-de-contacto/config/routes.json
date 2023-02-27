@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pedidos-de-contactos",
+      "handler": "pedidos-de-contacto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pedidos-de-contactos/count",
+      "handler": "pedidos-de-contacto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pedidos-de-contactos/:id",
+      "handler": "pedidos-de-contacto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pedidos-de-contactos",
+      "handler": "pedidos-de-contacto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pedidos-de-contactos/:id",
+      "handler": "pedidos-de-contacto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pedidos-de-contactos/:id",
+      "handler": "pedidos-de-contacto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

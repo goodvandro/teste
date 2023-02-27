@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_nested_section_params",
+  "info": {
+    "name": "SectionParams",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "grey"],
+      "default": "white",
+      "required": false
+    },
+    "padding": {
+      "type": "enumeration",
+      "enum": ["normal", "top", "bottom", "zero"],
+      "default": "normal",
+      "required": false
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "background_posicao": {
+      "type": "enumeration",
+      "enum": [
+        "left_center",
+        "left_top",
+        "left_bottom",
+        "right_center",
+        "right_top",
+        "right_bottom"
+      ]
+    }
+  }
+}

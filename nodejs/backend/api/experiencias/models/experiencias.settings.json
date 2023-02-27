@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiencias",
+  "info": {
+    "name": "Experiências",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "descricao": {
+      "type": "richtext"
+    },
+    "descricao_en": {
+      "type": "richtext"
+    },
+    "descricao_de": {
+      "type": "richtext"
+    },
+    "descricao_fr": {
+      "type": "richtext"
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "nome": {
+      "type": "string"
+    },
+    "nome_en": {
+      "type": "string"
+    },
+    "nome_de": {
+      "type": "string"
+    },
+    "nome_fr": {
+      "type": "string"
+    },
+    "descricao_curta": {
+      "type": "richtext"
+    },
+    "descricao_curta_en": {
+      "type": "richtext"
+    },
+    "descricao_curta_de": {
+      "type": "richtext"
+    },
+    "descricao_curta_fr": {
+      "type": "richtext"
+    }
+  }
+}

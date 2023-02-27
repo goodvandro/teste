@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ilhas",
+      "handler": "ilhas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ilhas/count",
+      "handler": "ilhas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ilhas/:id",
+      "handler": "ilhas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ilhas",
+      "handler": "ilhas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ilhas/:id",
+      "handler": "ilhas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ilhas/:id",
+      "handler": "ilhas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

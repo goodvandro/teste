@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nested_razoes",
+  "info": {
+    "name": "razoes",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "titulo_de": {
+      "type": "string"
+    },
+    "titulo_fr": {
+      "type": "string"
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

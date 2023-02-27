@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/menu-principal",
+      "handler": "menu-principal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/menu-principal",
+      "handler": "menu-principal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/menu-principal",
+      "handler": "menu-principal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

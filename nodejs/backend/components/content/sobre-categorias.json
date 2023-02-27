@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_sobre_nos_categorias",
+  "info": {
+    "name": "sobreNosCategorias",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sobre_nos": {
+      "collection": "sobre-nos"
+    },
+    "params": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.section-params"
+    }
+  }
+}

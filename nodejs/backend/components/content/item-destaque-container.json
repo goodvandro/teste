@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_content_item_destaque_containers",
+  "info": {
+    "name": "itemDestaqueContainer",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "titulo_de": {
+      "type": "string"
+    },
+    "titulo_fr": {
+      "type": "string"
+    },
+    "alojamento": {
+      "model": "alojamentos"
+    },
+    "categoria": {
+      "model": "categorias"
+    },
+    "informacao": {
+      "model": "informacoes"
+    },
+    "local_e_actividade": {
+      "model": "locais-e-actividades"
+    },
+    "pagina": {
+      "model": "paginas"
+    },
+    "regiao": {
+      "model": "regioes"
+    },
+    "restaurante": {
+      "model": "restaurantes"
+    },
+    "tours_transporte": {
+      "model": "tours-transportes"
+    },
+    "sobre": {
+      "model": "sobre-nos"
+    },
+    "alojamentos": {
+      "model": "alojamentos"
+    },
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "ancora": {
+      "type": "string"
+    },
+    "ancora_en": {
+      "type": "string"
+    },
+    "ancora_de": {
+      "type": "string"
+    },
+    "ancora_fr": {
+      "type": "string"
+    }
+  }
+}

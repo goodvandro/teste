@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sobre_nos",
+  "info": {
+    "name": "Sobre Nós",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "nome_en": {
+      "type": "string",
+      "required": true
+    },
+    "nome_de": {
+      "type": "string",
+      "required": true
+    },
+    "nome_fr": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "nome",
+      "required": true
+    },
+    "slug_en": {
+      "type": "uid",
+      "targetField": "nome_en"
+    },
+    "slug_de": {
+      "type": "uid",
+      "targetField": "nome_en"
+    },
+    "slug_fr": {
+      "type": "uid",
+      "targetField": "nome_en"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "content.split-with-images",
+        "content.text",
+        "content.video",
+        "content.slider",
+        "content.timeline",
+        "content.image-list",
+        "content.clima"
+      ]
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.metas",
+      "required": true
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

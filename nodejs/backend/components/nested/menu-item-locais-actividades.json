@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_locais_actividades",
+  "info": {
+    "name": "menuItemLocaisActividades",
+    "icon": "binoculars"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "locais_e_actividades": {
+      "collection": "locais-e-actividades"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_nested_slides",
+  "info": {
+    "name": "Slide",
+    "icon": "caret-right"
+  },
+  "options": {},
+  "attributes": {
+    "imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    },
+    "legenda": {
+      "type": "string"
+    },
+    "legenda_en": {
+      "type": "string"
+    },
+    "legenda_de": {
+      "type": "string"
+    },
+    "legenda_fr": {
+      "type": "string"
+    }
+  }
+}

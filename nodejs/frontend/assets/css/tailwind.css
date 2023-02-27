@@ -1,0 +1,404 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+body,
+html {
+  @apply font-ubuntu bg-grey-200;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+  outline: none;
+  outline: 0;
+}
+
+.fadeInUp {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+#links-uteis {
+  min-height: calc(100vh - 144px);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+.banner-card-text {
+  transform: translate3d(0, 100%, 0);
+}
+
+.pcm-text {
+  transform: translate3d(0, calc(100% - 4.5rem), 0);
+}
+.banner-card:hover .banner-card-text,
+.pcm:hover .pcm-text {
+  transform: translate3d(0, 0, 0);
+  justify-content: flex-end;
+  color: #fff;
+}
+.banner-card:hover .banner-card-text h4 {
+  color: #fff;
+}
+
+.banner-card:hover .overlay-card {
+  @apply bg-gradient-to-t from-black;
+}
+
+.overlay-shadow {
+  @apply absolute w-full z-20 bg-gradient-to-t from-black;
+  height: 50%;
+  -webkit-transition: height 300ms linear;
+  -ms-transition: height 300ms linear;
+  transition: height 300ms linear;
+}
+.pcm:hover .overlay-shadow {
+  height: 100%;
+  @apply bg-black-trans;
+  -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.color-white p {
+  color: #fff;
+}
+
+@responsive {
+  .hover-trigger .hover-target-flex,
+  .hover-trigger .hover-target {
+    @apply hidden;
+  }
+  .hover-trigger:hover .hover-target {
+    @apply block;
+  }
+  .hover-trigger:hover .hover-target-flex {
+    @apply flex;
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  -webkit-animation: fade-out 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-out 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+a,
+button,
+a span {
+  @apply transition-colors duration-500 ease-in-out;
+}
+
+a {
+  @apply text-green;
+}
+
+p,
+div,
+span {
+  @apply text-xsm text-black;
+  @screen lg {
+    @apply text-base;
+  }
+}
+
+p {
+  @apply mb-6;
+}
+
+div p:last-child {
+  @apply mb-0;
+}
+
+h1,
+.h1 {
+  @apply text-4xl text-black font-bold font-dancing;
+  @screen lg {
+    @apply text-5xl;
+  }
+}
+
+h2,
+.h2 {
+  @apply text-xl text-black font-light;
+  @screen lg {
+    @apply text-3xl;
+  }
+}
+
+h2:after {
+  content: ' ';
+  background-image: url('/icon.png');
+  margin: 5px 0 0px;
+  width: 45px;
+  height: 24px;
+  display: block;
+  color: #8dbe22;
+}
+
+h3,
+.h3 {
+  @apply text-lg text-black font-medium;
+  @screen lg {
+    @apply text-2xl;
+  }
+}
+
+h4,
+.h4 {
+  @apply text-xsm text-black font-bold uppercase;
+  @screen lg {
+    @apply text-md;
+  }
+}
+
+h5,
+.h5 {
+  @apply text-base text-red font-bold uppercase mt-0 mb-2 text-left;
+  @screen lg {
+    @apply text-md;
+  }
+}
+
+section {
+  @apply py-9 w-full float-left;
+  @screen md {
+    @apply py-9;
+  }
+  @screen lg {
+    @apply py-15;
+  }
+}
+
+.redes-links-uteis a,
+.redes-links-uteis svg{
+  @apply text-grey-600 
+}
+
+.redes-links-uteis a:hover,
+.redes-links-uteis svg:hover{
+  @apply text-green-light
+}
+
+.text-component h2,
+.text-component h3,
+.text-component h4 {
+  @apply mb-4;
+}
+
+.text-component h3 {
+  @apply text-center;
+}
+
+.text-component a {
+  @apply underline;
+}
+
+.text-component ol {
+  padding-left: 17px;
+  margin: 0 0 20px;
+  counter-reset: item;
+}
+.text-component ol li {
+  @apply text-black;
+  padding-left: 20px;
+  position: relative;
+  list-style-type: none;
+}
+.text-component ol li:before {
+  font-size: 14px;
+  line-height: 26px;
+  color: #399f37;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  counter-increment: item;
+  content: counter(item) '.';
+}
+
+.text-component ul {
+  padding-left: 10px;
+  margin: -1.3rem 0 20px;
+}
+.text-component ul li {
+  @apply text-black;
+  position: relative;
+  padding-left: 20px;
+  list-style: none;
+}
+.text-component ul.text-white li,
+.text-component ol.text-white li {
+  @apply text-white;
+}
+
+.text-component ul li:before {
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  content: '';
+  color: #399f37;
+  background-image: url('/li.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 5px;
+}
+
+.accordion-text-container h2 {
+  @apply text-center mb-4 mt-6;
+}
+.accordion-text-container hr {
+  @apply max-w-lg mx-auto text-grey-200 border mt-8;
+}
+#breadcrumbs a {
+  text-decoration: none !important;
+}
+
+.text-inlink-content .text-component a {
+  @apply text-xsm uppercase font-bold align-middle inline-block text-blue no-underline transition duration-500 ease-in-out transform;
+  @screen md {
+    @apply;
+  }
+}
+
+.text-inlink-content .text-component a:hover {
+  @apply text-green no-underline scale-105;
+}
+
+.text-inlink-content .text-component a:after {
+  position: absolute;
+  transition-duration: 500ms;
+  right: -30px;
+  top: 2px;
+  content: '';
+  color: #65c9d7;
+  background-image: url('/arrow-lg-blue.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 16px;
+}
+#home .text-inlink-content .text-component a:after {
+  position: absolute;
+  transition-duration: 500ms;
+  right: 20px;
+  top: 15px;
+  content: '';
+  color: #65c9d7;
+  background-image: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 16px;
+}
+#home .text-inlink-content .text-component a:hover {
+  @apply text-blue no-underline scale-105;
+}
+#home .text-inlink-content .text-component a {
+  @apply text-xsm uppercase font-bold align-middle inline-block text-white no-underline transition duration-500 ease-in-out transform;
+  @screen md {
+    @apply;
+  }
+}
+
+#home .text-inlink-content .text-component a:hover::after {
+  background-image: none;
+}
+.text-inlink-content .text-component a:hover::after {
+  background-image: url('/arrow-lg-green.svg');
+}
+
+.text-inlink-content .text-component h3:before {
+  content: ' ';
+  background-image: url('/icon.png');
+  margin: 0 0 16px 0;
+  width: 45px;
+  height: 24px;
+  display: block;
+  color: #8dbe22;
+}
+
+.text-inlink-content .text-component h3 {
+  text-align: left;
+}

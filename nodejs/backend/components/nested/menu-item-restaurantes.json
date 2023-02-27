@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_menu_item_restaurantes",
+  "info": {
+    "name": "menuItemRestaurantes",
+    "icon": "hamburger"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "titulo_en": {
+      "type": "string"
+    },
+    "restaurantes": {
+      "collection": "restaurantes"
+    }
+  }
+}
